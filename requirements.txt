@@ -1,0 +1,3 @@
+pip install pandas
+pip instal mysql-connector-python
+pip install python-dotenv
