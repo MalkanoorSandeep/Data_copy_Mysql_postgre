@@ -14,6 +14,7 @@ def get_db_connection():
         )
 
         if connection.is_connected():
+            logger.info(f"Connected to the database: {MYSQL_CONFIG['database']}")
             return connection
         
 
